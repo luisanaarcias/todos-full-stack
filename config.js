@@ -1,5 +1,5 @@
 const PAGE_URL = process.env.NODE_ENV ==='production'
-? 'https://todos-full-stack-m42e.onrender.com/'
+? 'https://todos-full-stack-m42e.onrender.com'
 : 'http://localhost:3000'
 
 const MONGO_URI = process.env.NODE_ENV ==='production'
